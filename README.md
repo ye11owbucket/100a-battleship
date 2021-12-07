@@ -1,26 +1,13 @@
 ## SDSS Computing Studies Python Assignment
 ### Assignment #100a Battelship
 
-Criteria:
-* Take a list of coordinates and draw a map showing occupied squares
-* The map is a 10x10 grid
- 
+**** Introduction
+This assignment takes components that could be used to create the classic boardgame "Battleship". This is the game where you place your ships on a 10x10 grid, and then take turns attacking square in the grid, hoping to hit your opponents ships.  
+Although it uses an x,y coordinate system, the coordinates are often read as Letters for columns and numbers for rows.  For example "A1" would correspond to the coordinate (0,0) and "A5" would correspond to the coordinate (0,4).  What would B3 correspond to? (1,2) of course!
 
-Sample Data:
-```
-[[1, 1], [2, 1], [4, 0], [5, 0], [6, 0], [0, 1], [0, 2], [0, 3], [1, 8], [2, 8], [3, 8], [4, 8], [4, 3], [4, 4], [4, 5], [4, 6], [4, 7]]
-```
+Assignments:
+****** 1. Display the map
+Given a list of coordinates that shows the occupied squares on the map, draw a representation of what the map looks like.
+****** 2. Convert coordinates
+Given a string literal (example "B3") convert it to a list that contains the coordinate (in this case: [ 1, 2 ] )
 
-Suggested Output:
-```
-..........
-.xxxx.....
-....x.....
-....x.....
-....x.....
-....x.....
-x...x.....
-x.........
-xxx.......
-....xxx...
-```
