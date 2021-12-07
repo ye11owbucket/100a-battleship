@@ -14,4 +14,7 @@ Given a string literal convert it to a list that contains the coordinate. Your s
 There are 5 boats in battleship.  They must occupy coordinates that are horizontal or vertical only (no diagonals).  The size of the boats are 2, 3, 3, 4 and 5.  Create a function that generates a list of the data for your boats.
 ##### 4. Check for conflicts
 It is not possible for a boat to occupy the same space as another boat.  We would need to add a tool to check to see if a boat that we are trying to place is overlapping with another boat, so that if it is, we can re-create it.
+##### 5. Display the map using tkinter
+Same as assignment 1, but instead of using text, create a window using tkinter. You might want to create some graphics of set size to represent your boats.
+##### 6. Try creating the full game of battleship!
 
